@@ -11,7 +11,7 @@ def view_tables(con, c):
     print(c.fetchall())
 
 
-def access_table(con, c, tab):
+def access_table(con, c):
     df = pd.read_sql('SELECT * FROM calls_2022_03_08_exp_2022_03_09', con)
     print(df.head(20))
     return df
