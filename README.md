@@ -1,5 +1,11 @@
 # Senior-Project
 
+## Review & Request Letter
+
+
+
+## Blog Posts
+
 [Blog Post 1](https://vanman247.github.io/Senior-Project/docs/blog_post_1.html)
 
 [Blog Post 2](https://vanman247.github.io/Senior-Project/docs/blog_post_2.html)
