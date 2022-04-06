@@ -125,4 +125,4 @@ Next we now need to make a subset of the Dataset of the  Strike Price, Bid and A
 
     avg_prem = round(calls["dif_prem"].mean(), 2)
     
-We now have our "Quick and Dirty" Dataset
+We now have our "Quick and Dirty" Dataset for Running Bull Call Spreads.
