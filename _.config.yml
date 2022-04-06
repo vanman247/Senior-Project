@@ -4,7 +4,7 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - Blog_post_1.md
+  - [Blog_post_1.md](https://vanman247.github.io/Senior-Project/Blog_post_1.html){:target="_blank" rel="noopener"}
   - Blog_post_2.md
   - Blog_post_3.md
   - Blog_post_4.md
