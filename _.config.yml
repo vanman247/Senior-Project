@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - Blog_post_1.md
+  - Blog_post_2.md
+  - Blog_post_3.md
+  - Blog_post_4.md
