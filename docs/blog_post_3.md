@@ -51,9 +51,9 @@ The Function "next_friday()" calculates the if the date of the Upcoming Fiday. *
  
 The "Opt()" Function does the bulk of the work in calling and collecting the Options Chains.
  
-The "calls()" Function pulls out the Calls of the Options from the "Opt" Function.
+The "Calls()" Function pulls out the Calls of the Options from the "Opt()" Function.
  
-The "puts()" Function pulls out the Puts of the Options from the "Opt" Function.
+The "Puts()" Function pulls out the Puts of the Options from the "Opt()" Function.
  
 ### Step 3
  
@@ -92,7 +92,6 @@ Now we need to call Both the Chain and Stock Classes. Then call each of the attr
     ## Run Bull and Bear Call Spread
     cp = stock.current_price()
     
-"""
 Strike: This column shows the price at which a call buyer can purchase the security if the option is exercised.
 In the case of a put option, it’s the price at which the option buyer can sell the underlying security should the option be exercised.
 On the flip side, an option writer will be assigned to produce the underlying security at the strike price if an option he or she sells (writes) is exercised.
@@ -114,8 +113,6 @@ Vol (Volume): Lets you know how many contracts have been traded during the sessi
 Options that have large volume typically have a tighter Bid-Ask spread since more traders are looking to get in and out of positions.
 
 Open Int (Interest): The number of open positions in the contract that have not yet been offset.
-
-"""
 
 ## Step 5
 Next we now need to make a subset of the Dataset of the  Strike Price, Bid and Ask. Once that is made we then need to calculate the premuim from between Ask and Bid at different Strike Prices. then you will need to filter the new dataset to include only those strike prices that are greater than or equal to the Current Stock Price of the underlying stock. Then we need to round the Premium to the 2nd decimal place. The reason for this is that because if the US dollar only goes out to 2 decimals places.
