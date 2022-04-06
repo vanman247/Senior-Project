@@ -19,7 +19,7 @@ First we will need to import the necessary python libraries.
 
 ### Step 2
 
-After importing the libraries next you need to do is pull in the Option Data
+After importing the libraries next you need to do is pull in the Option Data. So for this I decided to go down the path of using Classes. Now I chose this because I wanted to develop my grasp of Classes within Python and because there were several attributes that Options have.
     
     class Chain:
 
@@ -47,6 +47,14 @@ After importing the libraries next you need to do is pull in the Option Data
             self.puts = pd.DataFrame(self.put)
             return self.puts
             
+The Function "next_friday()" calculates the if the date of the Upcoming Fiday. *Disclaimer: If the Current Day is a Friday then it will so the same date as the "next_friday()" function.*
+ 
+The "Opt()" Function does the bulk of the work in calling and collecting the Options Chains.
+ 
+The "calls()" Function pulls out the Calls of the Options from the "Opt" Function.
+ 
+The "puts()" Function pulls out the Puts of the Options from the "Opt" Function.
+ 
  ### Step 3
  
  We now need to know what is the Current Price of the Stock.
