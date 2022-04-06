@@ -17,6 +17,7 @@ A stock option gives an investor the right, but not the obligation, to buy or se
         5. Contract Size
             1. Contracts represent a specific number of underlying shares that a trader may be looking to buy. One contract is equal to 100 shares of the underlying stock.
         6. Premium
-            1. The premium is the price paid for an option, It is determined by taking the price of the call and multiplying it by the number of contracts bought, then multiplying it by 100.
+            1. The premium is the price paid for an option, It is determined by taking the price of the call or puts and multiplying it by the number of contracts bought, then multiplying it by 100.
         
-Please vist [Investopedia](https://www.investopedia.com/terms/s/stockoption.asp#:~:text=Stock%20Option%20FAQs-,What%20Is%20a%20Stock%20Option%3F,that%20a%20stock%20will%20rise.)
+Please visit [Investopedia.com](https://www.investopedia.com/terms/s/stockoption.asp#:~:text=Stock%20Option%20FAQs-,What%20Is%20a%20Stock%20Option%3F,that%20a%20stock%20will%20rise.) for mor information and examples of Stock Options.
+
