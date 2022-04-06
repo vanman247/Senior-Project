@@ -4,6 +4,7 @@
 
 Stock Options broken down
 A stock option gives an investor the right, but not the obligation, to buy or sell a stock at an agreed-upon price and date.  
+
         1. Puts
             1. Puts are bets that a stock or index will fall.
         2. Calls
