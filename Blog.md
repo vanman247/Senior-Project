@@ -6,18 +6,18 @@
 	
 ## How to Achieve the goals of the Project:
   1.	Use python to code the logic of searching for a stock per option play
-    a.	Stock Screener
-      i.	$1 strike prices difference
-      ii.	No stocks that give dividends
-      iii.	More than 1 million in open trade Volume
-      iv.	Etc.…
+	a.	Stock Screener
+		i.	$1 strike prices difference
+		ii.	No stocks that give dividends
+		iii.	More than 1 million in open trade Volume
+		iv.	Etc.…
   2.	Calculate Percent Return per play per stock
-    a.	Bull Call Spread
-      i.	Used for when Stock is going to Climb up in price.
-    b.	Bear Put Spread
-      i.	Used for when the stock is falling down in price.
-    c.	Iron Condor
-      i.	Used for when stock price is moving sideways.
+	a.	Bull Call Spread
+		i.	Used for when Stock is going to Climb up in price.
+	b.	Bear Put Spread
+		i.	Used for when the stock is falling down in price.
+	c.	Iron Condor
+		i.	Used for when stock price is moving sideways.
   3.	Calculate Probabilities and Odds of stocks current price moving to play of the stock.
  
 ## Background:
