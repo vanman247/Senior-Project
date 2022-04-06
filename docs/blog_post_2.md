@@ -46,6 +46,10 @@ After importing the libraries next you need to do is pull in the Option Data
             self.put = self.opt.puts
             self.puts = pd.DataFrame(self.put)
             return self.puts
+            
+ ### Step 3
+ 
+ We now need to know what is the Current Price of the Stock.
 
     class Stock:
 
