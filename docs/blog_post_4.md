@@ -12,4 +12,4 @@ So to do this with the "Quick & Dirty" dataset, I would recommend to use a NEAT 
 
 A [N.E.A.T.](https://neat-python.readthedocs.io/en/latest/) algorithm is also known as Neuro-Evolution of Augmentating Topologies, with is a form of a  Genetic Neural Network.
 
-** In the Properitary side of the project I had access to tools that allowed me to use a Genetic Neural Network, which took about 2 & 1/2 weeks to get trained. The reaseon it took so long is because I used a Machine Learning - Random Forest Classifier, to verify if the Genetic Neural Network was moving in a positive direction for classifying the Options data. ** 
+*In the Properitary side of the project I had access to tools that allowed me to use a Genetic Neural Network, which took about 2 & 1/2 weeks to get trained. The reaseon it took so long is because I used a Machine Learning - Random Forest Classifier, to verify if the Genetic Neural Network was moving in a positive direction for classifying the Options data.*
