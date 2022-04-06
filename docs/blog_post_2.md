@@ -30,16 +30,23 @@ Please visit [Investopedia.com](https://www.investopedia.com/terms/s/stockoption
 I am executing an Option Play called a Bull Call Spread. Which is where you both Buy and Sell Options of a Stock for a premium at the same time.
 
 Example of Bull Call Spread:
+
 Ask = $0.17 per share at the Strike Price of $456.00
+
 Bid = $0.09 per share at the strike Price of $457.00
 
 Amount of Premium made is the difference between the Ask and the Bid.
+
 Premium per share = $0.17 - $0.09 = $0.08 per share.
+
 Premium per contract = $0.08 * 100 = $8.00 per contract.
 
 Cost of Running Bull Call Spread:
+
 Cost of play per share = (Bid Strike Price - Ask Strike Price)
+
 Cost of Play per Share = $457 - $456 = $1
+
 Cost per Contract = $1 * 100 shares per contract, which equals $100
 
 So, Overall it would cost you $100 per contract of this play, And you collect $8 for every $100 risked. Which is a 8% return on you money.
