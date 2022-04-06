@@ -1,8 +1,9 @@
 # Blog Post 1
 
 ## Goals of the Project:
-	1. To build a system that executes stock market options research.
-	2. Build an application for applied use of system
+   1. To build a system that executes stock market options research.
+   2. Build an application for applied use of system
+	
 ## How to Achieve the goals of the Project:
   1.	Use python to code the logic of searching for a stock per option play
     a.	Stock Screener
