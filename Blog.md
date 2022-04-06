@@ -7,10 +7,11 @@
 ## How to Achieve the goals of the Project:
   1.	Use python to code the logic of searching for a stock per option play
 	a.	Stock Screener
-		i.	$1 strike prices difference
-		ii.	No stocks that give dividends
-		iii.	More than 1 million in open trade Volume
-		iv.	Etc.…
+		1. $1 strike prices difference
+		2. No stocks that give dividends
+		3. More than 1 million in open trade Volume
+		4. Etc.…
+		
   2.	Calculate Percent Return per play per stock
 	a.	Bull Call Spread
 		i.	Used for when Stock is going to Climb up in price.
