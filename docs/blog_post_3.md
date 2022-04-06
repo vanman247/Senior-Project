@@ -6,7 +6,7 @@ We need to develop a way to get a "Snap-shot" of Options Data. Now this is a "Qu
 
 ### Step 1
 
-First we will need to import the necessary python libraries.
+First, we will need to import the necessary python libraries.
 
     # Importing Libraries
     
@@ -19,7 +19,7 @@ First we will need to import the necessary python libraries.
 
 ### Step 2
 
-After importing the libraries next you need to do is pull in the Option Data. So for this I decided to go down the path of using Classes. Now I chose this because I wanted to develop my grasp of Classes within Python and because there were several attributes that Options have.
+After importing the libraries next you need to do is pull in the Option Data. So, for this I decided to go down the path of using Classes. Now I chose this because I wanted to develop my grasp of Classes within Python and because there were several attributes that Options have.
     
     class Chain:
 
@@ -47,7 +47,7 @@ After importing the libraries next you need to do is pull in the Option Data. So
             self.puts = pd.DataFrame(self.put)
             return self.puts
             
-The Function "next_friday()" calculates the if the date of the Upcoming Fiday. *Disclaimer: If the Current Day is a Friday then it will so the same date as the "next_friday()" function.*
+The Function "next_friday()" calculates the if the date of the Upcoming Fiday. *Disclaimer: If the Current Day is a Friday, then it will so the same date as the "next_friday()" function.*
  
 The "Opt()" Function does the bulk of the work in calling and collecting the Options Chains.
  
@@ -115,7 +115,7 @@ Options that have large volume typically have a tighter Bid-Ask spread since mor
 Open Int (Interest): The number of open positions in the contract that have not yet been offset.
 
 ## Step 5
-Next we now need to make a subset of the Dataset of the  Strike Price, Bid and Ask. Once that is made we then need to calculate the premuim from between Ask and Bid at different Strike Prices. then you will need to filter the new dataset to include only those strike prices that are greater than or equal to the Current Stock Price of the underlying stock. Then we need to round the Premium to the 2nd decimal place. The reason for this is that because if the US dollar only goes out to 2 decimals places.
+Next, we now need to make a subset of the Dataset of the Strike Price, Bid and Ask. Once that is made, we then need to calculate the premium from between Ask and Bid at different Strike Prices. then you will need to filter the new dataset to include only those strike prices that are greater than or equal to the Current Stock Price of the underlying stock. Then we need to round the Premium to the 2nd decimal place. The reason for this is that because if the US dollar only goes out to 2 decimals places.
 
     calls = calls[["strike", "bid", "ask"]]
 
