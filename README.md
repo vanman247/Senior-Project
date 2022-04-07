@@ -1,7 +1,13 @@
 # Senior-Project
 
 ## Review & Request Letter
+There has been quite a bit that I have done this Semester for this Project. 
 
+  Some of the things that I have worked on are as followes:
+    1. adsf 
+    asdf
+    adf
+    afd
 
 
 ## Blog Posts
