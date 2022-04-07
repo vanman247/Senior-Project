@@ -27,8 +27,10 @@ I have spent 112 hours achomplishing this Project. Of which 107 hours were of Pr
 
 For a Grade I think that I should get an:
 
-## A to A-
+### A to A-
 
+## Link to Repo
+This is the Link to the Project [here.](https://github.com/vanman247/Senior-Project)
 
 ## Blog Posts
 
