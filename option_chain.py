@@ -95,19 +95,19 @@ calls["dif_prem"] = calls["ask"] - calls["bid"].shift(-1)
 
 calls = calls[calls["strike"] >= cp]
 
-calls = calls[calls["dif_prem"] <= 0.1000]
+##calls = calls[calls["dif_prem"] <= 0.1000]
 
 avg_prem = round(calls["dif_prem"].mean(), 2)
 
-print(round(calls["dif_prem"].mean(), 2))
-
-calls = calls[calls["bid"] >= 0.01]
-
-calls = calls[calls["dif_prem"] >= avg_prem]
-
-calls = calls[calls["dif_prem"] >= 0.0125]
-
+##print(round(calls["dif_prem"].mean(), 2))
+##
+##calls = calls[calls["bid"] >= 0.01]
+##
+##calls = calls[calls["dif_prem"] >= avg_prem]
+##
+##calls = calls[calls["dif_prem"] >= 0.0125]
+##
 print(calls)
-
-print(cp)
+##
+##print(cp)
 
